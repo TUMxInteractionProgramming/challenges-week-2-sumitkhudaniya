@@ -1,0 +1,143 @@
+  /* #2 #colorful #palette is:
+          * Background: #F5F5F5 (GREY 100)
+          * Primary Text: black
+
+          * Primary color: #3F51B5 (INDIGO)
+          * Primary color_text : white
+          * Accent color: #CDDC39 (LIME)
+          * Accent color_text: black
+          */
+
+  /*Global */
+
+  * {
+      /* #2 #font #faces */
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+  }
+
+  body {
+      /* #2 #colorful #background */
+      background-color: #F5F5F5;
+  }
+
+
+
+
+
+  /*App_bar */
+
+  .app-bar {
+      /* #2 #colourful #app-bar */
+      background-color: #3F51B5;
+      color: white;
+  }
+
+
+  /*Channels_list */
+
+  ul {
+      /* #2 #colorful #channelandchat */
+      background-color: white;
+  }
+
+  ul li {
+      padding: 16px;
+      font-size: 16px;
+      border-bottom: 1px solid grey;
+      display: block;
+
+  }
+
+  ul li span img {
+      margin-bottom: -7px;
+  }
+
+  ul .hi-channel {
+      border-left: 4px solid #3F51B5;
+      color: #3F51B5;
+  }
+
+
+  /*Tab_bar */
+
+  #tab-bar {
+      /* #2 #colorful #channelandchat */
+      background-color: white;
+
+  }
+
+  #tab-bar button {
+      /* #2 #colourful #plusfive */
+      background-color: white;
+      color: black;
+      /* #2 #font capital #letters */
+      text-transform: uppercase;
+      /*to center text inside buttons*/
+      text-align: center;
+      font-size: 13px;
+      border: none;
+      height: 72px;
+      margin: auto;
+      width: 33%;
+
+  }
+
+  #tab-bar .selected {
+      border-bottom: 4px solid #3F51B5;
+      color: #3F51B5;
+  }
+
+  #tab-bar button img {
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 4px;
+      display: block;
+  }
+
+  /*Messages */
+
+  .message {
+      width: 80%;
+      margin-bottom: 8px;
+      margin-left: 2.5%;
+  }
+
+  .initial-message {
+      margin-left: 17.5%;
+  }
+
+  .message h3 {
+      /* #2 #font #metadata is now medium */
+      font-size: medium;
+
+  }
+
+  .message p {
+      background-color: white;
+      padding: 16px;
+
+  }
+
+  .message button {
+      /* #2 #colourful #plusfive */
+      background-color: #CDDC39;
+      color: black;
+      /* #2 #font capital #letters */
+      text-transform: uppercase;
+      /*to center text inside buttons*/
+      text-align: center;
+
+  }
+
+  .message h3 em {
+      /* #2 #font #remaining overrides the default italic appearance of em elements*/
+      font-size: larger;
+      font-style: normal;
+  }
+
+  .message h3 strong a {
+      color: black;
+      text-transform: uppercase;
+  }
